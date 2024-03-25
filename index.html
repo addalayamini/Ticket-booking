@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body style="background-color: black;">
+    <div class="container-fluid sticky-top ">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-danger d-flex" href="#">
+                        <img src="img/logo.jpg" alt="logo" width="100px" height="50px">
+                        <h4>MOVIE TICKETS</h4>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <form class="d-flex ml" role="search">
+                        <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-0 mb-lg-0 mr">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    City
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Hyderabad</a></li>
+                                    <li><a class="dropdown-item" href="#">Gachibowli</a></li>
+                                    <li><a class="dropdown-item" href="#">Ameerpet</a></li>
+                                    <li><a class="dropdown-item" href="#">RC Puram</a></li>
+                                    <li><a class="dropdown-item" href="#">LB Nagar</a></li>
+                                    <li><a class="dropdown-item" href="#">Dilsukhnagar</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Sign in</button>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-5">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Streams</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Activities</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#">Plays</a>
+                            </li>
+                            <li class="nav-item ma">
+                                <a class="nav-link active" href="#">Listyourshow</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Corporates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Offers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Gift cards</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+    <div class="container-fluid mt-2 mb-5" id="home">
+        <div class="row">
+            <div class="col mt-5">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner cou">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="img/car5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/car1" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/car4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center text-danger mt-3 mb-5">Movies in hyderabad</h1>
+                    <button type="button" class="btn btn-outline-danger">Telugu</button>
+                    <button type="button" class="btn btn-outline-danger">Hindi</button>
+                    <button type="button" class="btn btn-outline-danger">English</button>
+                    <button type="button" class="btn btn-outline-danger">Tamil</button>
+                    <button type="button" class="btn btn-outline-danger">Malayalam</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row hov">
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/e.png" class="card-img-top" height="300px" alt="eagle">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>8.8</p>
+                        <pre>               </pre>
+                        <p>35.9k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Eagle</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/g.png" class="card-img-top" height="300px" alt="guntur kaaram">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>6.7</p>
+                        <pre>            </pre>
+                        <p>215.7k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Guntur Kaaram</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/h.png" class="card-img-top" height="300px" alt="hanuman">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>9.4</p>
+                        <pre>            </pre>
+                        <p>424.8k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Hanuman</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/t.png" class="card-img-top" height="300px" alt="true lover">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>8.4</p>
+                        <pre>             </pre>
+                        <p>1.2k votes
+                        <p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">True Lover</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <pre>
+
+
+
+
+    </pre>
+    <div class="container mt-5 mb-5 " id="Listyourshow">
+        <div class="row hov">
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/oye" class="card-img-top" height="300px" alt="oye">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>8.3</p>
+                        <pre>               </pre>
+                        <p>5.2k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Oye</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/rv rg.jpg" class="card-img-top" height="300px" alt="rvrg">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>7.9</p>
+                        <pre>               </pre>
+                        <p>19.7k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Raja Vaaru Rani Gaaru</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/opbk" class="card-img-top" height="300px" alt="opbk">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>7.2</p>
+                        <pre>               </pre>
+                        <p>27k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h6 class="card-title text-center">Ooru Peru Bhairavakona</h6>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/Sita_Ramam1.jpg" class="card-img-top" height="300px" alt="sita-ramam">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>9.2</p>
+                        <pre>             </pre>
+                        <p>186.6k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Sita Ramam</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <pre>
+
+
+    </pre>
+    <div class="container mt-5 mb-5 ">
+        <div class="row hov">
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/d.png" class="card-img-top" height="300px" alt="oye">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>6.3</p>
+                        <pre>               </pre>
+                        <p>10k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Drill</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/L.png" class="card-img-top" height="300px" alt="rvrg">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>7.2</p>
+                        <pre>               </pre>
+                        <p>14.7k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Lal Salaam</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/tho.png" class="card-img-top" height="300px" alt="opbk">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>9.8</p>
+                        <pre>               </pre>
+                        <p>48k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Tholi Prema</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 15rem; height: 21rem;">
+                    <img src="img/r.png" class="card-img-top" height="300px" alt="sita-ramam">
+                    <div class="icons d-flex">
+                        <p><i class="bi bi-star-fill"></i>9.2</p>
+                        <pre>             </pre>
+                        <p>23k votes</p>
+                    </div>
+                    <div class="card-body text-white">
+                        <h5 class="card-title text-center">Raajadhani Files</h5>
+                        <button type="button" class="btn btn-outline-danger text-center mx-5">Book Ticket</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <pre>
+    </pre>
+    <div class="container-fluid">
+        <div class="row text-white p-5 m-5" style="background-color: black;">
+            <h6><strong>List Your Show </strong> Got a show, event, activity or a great experience? Partner with us &
+                get
+                listed on Movie Tickets <button type="button" class="btn btn-success mx-5"><i
+                        class="bi bi-telephone"></i>Contact today!</button></h6>
+            <div class="row mt-5 mb-5 pb-0" style="background-color: rgba(128, 128, 128, 0.589);">
+                <div class="col p-5">
+                    <i class="bi bi-person icon1"></i>
+                    <p>24/7 CUSTOMER CARE</p>
+                </div>
+                <div class="col p-5">
+                    <i class="bi bi-cash-coin icon2"></i>
+                    <p>RESEND BOOKING CONFIRMATION</p>
+                </div>
+                <div class="col p-5">
+                    <i class="bi bi-envelope-open icon2"></i>
+                    <p>SUBSCRIBE TO THE NEWSLETTER</p>
+                </div>
+            </div>
+            <div>
+                <a href="#" class="text-white text-decoration-none">Online Movie Ticket Booking Mumbai</a>|
+                <a href="#" class="text-white text-decoration-none">Online Movie Ticket Booking Delhi</a>|
+                <a href="#" class="text-white text-decoration-none">Online Movie Ticket Booking Chennai</a>|
+                <a href="#" class="text-white text-decoration-none">Online Movie Ticket Booking Bengaluru</a>|
+                <a href="#" class="text-white text-decoration-none">Online Movie Ticket Booking Hyderabad</a>|
+                <a href="#" class="text-white text-decoration-none">Online Movie Ticket Booking Andhra Pradesh</a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row text-white">
+            <div class="col">
+                <h1 class="text-center text-danger mb-5">About</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam reiciendis quaerat. Beatae
+                    consectetur repellat debitis labore, minima earum quos adipisci mollitia sint laborum commodi,
+                    provident ad quidem, pariatur quaerat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam assumenda illum doloribus beatae
+                    vel non voluptatum adipisci amet, modi fuga corrupti. Voluptas impedit unde ut suscipit odio saepe
+                    perferendis facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe aliquid soluta
+                    nulla, officia commodi voluptate debitis beatae doloremque consequatur aspernatur tempore, modi
+                    harum sunt distinctio vitae illo odio natus alias. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Voluptatum, est magnam aperiam id tenetur soluta nisi placeat possimus, cupiditate
+                    tempora aspernatur vero qui quia illo! Voluptatem odit accusantium corrupti rerum?
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-lg-start text-white" style="background-color: rgba(0, 0, 0, 0.872)">
+        <div class="container p-4 pb-0">
+            <section class="">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Movie Tickets
+                        </h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                        <p>
+                            <a class="text-white" href="#home">Home</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#Listyourshow">Listyourshow</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#about">About</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="bi bi-home mr-3"></i> Rajahmundry</p>
+                        <p><i class="bi bi-envelope mr-3"></i> movietickets@gmail.com</p>
+                        <p><i class="bi bi-phone mr-3"></i> + 91 84845 48454</p>
+                        <p><i class="bi bi-printer mr-3"></i> + 91 85158 84551</p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+                        <a class="btn btn-outline-danger m-1 text-white" style="font-size: 20px;" href="#!"
+                            role="button"><i class="bi bi-instagram"></i></a>
+                        <a class="btn  btn-outline-primary m-1 text-white" style="font-size: 20px;" href="#!"
+                            role="button"><i class="bi bi-facebook"></i></a>
+                        <br>
+                        <a class="btn btn-outline-success m-1 text-white" style=" font-size: 20px;" href="#!"
+                            role="button"><i class="bi bi-whatsapp"></i></a>
+                        <a class="btn  btn-outline-danger m-1 text-white" style=" font-size: 20px;" href="#!"
+                            role="button"><i class="bi bi-google"></i></a>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1)">
+            © 2024 Copyright:
+            <a class="text-white" href="#">Movie Tickets.com</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.ml
+{
+    margin-left: 100px;
+    width: 400px;
+}
+.mr
+{
+    margin-left: 380px;
+}
+.ma
+{
+    margin-left: 600px;
+}
+.icon1
+{
+    margin-left:50px;
+    font-size: 60px;
+}
+.icon2
+{
+    margin-left: 75px;
+    font-size: 60px;
+}
+.hov :hover
+{
+   transform: scale(1); 
+   background-color:black;
+   color: white;
+}
+

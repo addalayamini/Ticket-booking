@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+   margin-left: 200px;
+   margin-top: 150px;
+}
+.form {
+    border: 1px solid black;
+    padding: 15px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 4px white;
+    background-color: rgb(250, 249, 249);
+    margin-left: 140px;
+}
+input {
+    width: 320px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+button
+{
+    background-color: rgb(6, 249, 148);
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+h1
+{
+    color: rgb(252, 57, 57);
+    margin-top: 100px;
+    text-align: center;
+}
+
